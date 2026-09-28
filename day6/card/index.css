@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  width: 100vw;
+
+  flex-direction: row;
+
+  justify-content: start;
+  align-items: start;
+
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  padding: 10px;
+  gap: 30px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: white;
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  gap: 10px;
+}
+
+.ho1 {
+  background-image: url("img1.jpeg");
+}
+
+.ho2 {
+  background-image: url("img2.jpeg");
+}
+
+.ho3 {
+  background-image: url("img3.jpeg");
+}
+
+.card > .h1 {
+  font-size: 14px;
+
+  position: absolute;
+  top: 22px;
+  left: 24px;
+
+  border-bottom: 2px solid white;
+  padding-bottom: 6px;
+
+  /* 밑줄넣기 다른 방법 
+  width: fit-content;
+  text-decoration: underline;
+  text-underline-offset: 6px */
+}
+
+.card > .content {
+  font-size: 32px;
+  font-weight: bold;
+
+  position: absolute;
+  top: 50px;
+  left: 24px;
+
+  line-height: 1.2;
+}
+
+.card > .comment {
+  font-size: 14px;
+
+  position: absolute;
+  top: 138px;
+  left: 24px;
+}

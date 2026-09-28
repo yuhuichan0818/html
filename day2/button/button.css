@@ -1,0 +1,20 @@
+.hello {
+  font-size: 12px;
+  color: black;
+  background: white;
+  border-radius: 20px;
+  border: 2px solid #f2f2f2;
+  padding: 5px 10px 5px 10px;
+}
+
+.star {
+  background-color: yellow;
+  border: 1px solid rgb(218, 218, 1);
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.card-grid {
+  text-align: left;
+  line-height: 14px;
+}

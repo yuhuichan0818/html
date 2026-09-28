@@ -1,0 +1,43 @@
+.reservation {
+  position: relative;
+
+  height: 100vh;
+  top: 60px;
+  background-color: rgb(231, 231, 231);
+}
+
+.reservation .contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+
+  padding: 40px;
+  gap: 12px;
+}
+
+.reservation > .title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.reservation .bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+
+  background-color: red;
+  gap: 12px;
+}
+
+.reservation > .input-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+
+  border-radius: 4px;
+}
+
+.reservation > .input-bar > .icon

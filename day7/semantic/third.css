@@ -1,0 +1,15 @@
+.third {
+  background-color: rgb(146, 146, 146);
+}
+
+.third > .contents {
+  padding: 80px;
+}
+
+.third .title {
+  font-family: "GMartketSans";
+  font-size: 40px;
+  font-weight: 600;
+
+  text-align: center;
+}

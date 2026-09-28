@@ -1,0 +1,46 @@
+header {
+  border-bottom: 1px solid red;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .right {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+
+nav .hamburger {
+  display: none;
+}
+
+/* 반응형 제작 시 주의사항 
+1. 배치도
+2. 폰트 사이즈
+
+*/
+
+@media (max-width: 768px) {
+  nav .right {
+    display: none;
+  }
+
+  nav .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger > svg {
+    color: blue;
+  }
+}

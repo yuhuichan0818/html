@@ -1,0 +1,21 @@
+.first {
+  display: flex;
+}
+
+.first > .contents h2 {
+  font-size: 40px;
+}
+
+.first > .contents p {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .first > .contents h2 {
+    font-size: 20px;
+  }
+
+  .first > .contents p {
+    font-size: 12px;
+  }
+}

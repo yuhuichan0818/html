@@ -1,0 +1,9 @@
+.location {
+  width: 100%;
+
+  background-color: black;
+}
+
+.location > .contents {
+  padding: 40px;
+}

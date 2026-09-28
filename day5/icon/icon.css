@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  width: fit-content;
+  height: 40px;
+
+  flex-direction: row;
+
+  justify-content: start;
+  align-items: start;
+
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+
+  text-align: center;
+}
+
+.icon > .count {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+
+  border-radius: 9999px;
+  padding: 4px;
+
+  position: relative;
+  top: -32px;
+  left: 10px;
+}

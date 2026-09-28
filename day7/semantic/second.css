@@ -1,0 +1,16 @@
+.second {
+  background-color: rgb(199, 199, 199);
+}
+
+.second > .contents {
+  padding: 40px;
+}
+
+.second .title {
+  font-family: "GMarketSans";
+  font-size: 60px;
+  font-weight: 800;
+
+  text-align: center;
+  align-items: center;
+}

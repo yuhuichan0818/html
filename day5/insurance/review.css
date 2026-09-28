@@ -1,0 +1,76 @@
+.container {
+  width: fit-content;
+  /* 자식의 컨텐츠만큼 넓이 차지 */
+  height: fit-content;
+  border: 2px solid red;
+  border-radius: 8px;
+
+  display: flex;
+  /* flex - 자식들 한 줄로 정렬 */
+
+  flex-direction: column;
+  /* 해당 방향의 자식들의 위치-방향 조절 */
+  /* column 세로, row 가로 */
+  /* "-reverse: 역방향 */
+
+  justify-content: space-evenly;
+  /* start, center, end: 가로로 시작, 중앙, 끝 정렬 */
+  /* space-between: 좌우 끝에 붙히고, 균등하게 배치 */
+  /* "-evenly: 자식 사이의 간격과 양끝의 간격을 모두 균등하게 배치 */
+  /* "-around: 자식의 왼쪽과 오른쪽에 같은 크기의 여백 만들기 */
+
+  align-items: center;
+  /* start, center, end: 세로로 시작, 중앙, 끝 정렬 */
+
+  padding: 60px 60px;
+}
+
+.card {
+  width: 100%;
+
+  flex-direction: row;
+
+  border: none;
+  gap: 48px;
+}
+
+.content {
+  width: 24%;
+  background-color: white;
+  color: #84a2e6;
+
+  border: none;
+  gap: 24px;
+}
+
+.on {
+  color: black;
+}
+
+.tw {
+  color: black;
+}
+
+.th {
+  color: black;
+}
+
+.fo {
+  color: black;
+}
+
+.fi {
+  color: black;
+}
+
+.si {
+  color: black;
+}
+
+.se {
+  color: black;
+}
+
+.ei {
+  color: black;
+}

@@ -1,0 +1,43 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: beige;
+
+  transition: all 1s;
+  /* 모든 것을 1초 걸리게, 애니메이션 */
+}
+
+/* 마우스를 올리면 */
+.box:hover {
+  /* transform: rotate(45deg); [회전] */
+  /* transform: scale() [크기 조정] */
+  transform: scale(1.5);
+  background-color: red;
+}
+
+.newBox {
+  width: 200px;
+  height: 200px;
+  background-color: cornflowerblue;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.newBox > button {
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+  background-color: transparent;
+  font-size: 16px;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.newBox > button:hover {
+  opacity: 1;
+}

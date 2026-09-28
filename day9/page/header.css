@@ -1,0 +1,89 @@
+header {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.inner > .inner-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.inner > .inner-menu > li {
+  font-size: 14px;
+  color: grey;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  paading: 10px;
+}
+
+.head > .logo {
+  display: flex;
+}
+
+.head > .menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.head > .logo > a {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.head > .menu > li {
+  padding: 14px 20px;
+  transition: all 0.5s;
+
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.inner > .inner-menu > li:hover {
+  cursor: pointer;
+}
+
+.head > .logo > a:hover {
+  cursor: pointer;
+}
+
+.head > .menu > li:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.head > .hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .head > .menu > li {
+    display: none;
+  }
+
+  .head > .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}

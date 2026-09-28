@@ -1,0 +1,145 @@
+/* .container {
+  width: 100vw;
+  height: 1000px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 14px;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+  width: 300px;
+  height: 300px;
+  border: none;
+
+  background-position: center;
+
+  position: relative;
+  margin-top: 40px;
+}
+
+.i1 {
+  background-image: url("w1.jpeg");
+}
+
+.i2 {
+  background-image: url("w2.jpeg");
+}
+
+.i3 {
+  background-image: url("w3.jpeg");
+}
+
+.i4 {
+  background-image: url("w4.jpeg");
+}
+
+.image .benz {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.image .blur {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+
+  background-color: blue;
+  opacity: 0.7;
+}
+
+.image .ment {
+  position: absolute;
+
+  width: fit-content;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+
+  top: 12px;
+  left: 12px;
+}
+
+.image .comment {
+  position: absolute;
+  font-size: 14px;
+  color: white;
+
+  top: 54px;
+  left: 12px;
+}
+
+.image .benz:hover {
+  opacity: 1;
+} */
+
+.photo {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.album {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contents {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 0.5s;
+}
+
+.bg-blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  opacity: 0.4;
+}
+
+.text-group {
+  padding: 10px;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.text-group > h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-group > span {
+  font-size: 14px;
+}
+
+.work > h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.photo:hover > .contents {
+  transform: translateY(0%);
+}

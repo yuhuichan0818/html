@@ -1,0 +1,44 @@
+.card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 40px 20px 40px;
+  border: 1px solid #444444;
+  border-radius: 8px;
+}
+
+.head {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tag {
+  width: 40%;
+  border: none;
+  border-radius: 8px;
+  background-color: aqua;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.content {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.logo {
+  border-radius: 50%;
+  border: none;
+  width: 20px;
+  height: 20px;
+  /* cover 전체 필요 없고 최적화 */
+  /* contain 전체 필요해 */
+  object-fit: cover;
+}
+
+.logo-name {
+  text-align: left;
+  font-size: 14px;
+}

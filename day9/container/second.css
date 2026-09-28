@@ -1,0 +1,23 @@
+.second > .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  /* 자식들을 행렬로 나타내기 */
+  /*  */
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 20px;
+}
+
+.second > .container > .box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+@media (max-width: 768px) {
+  .second > .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
